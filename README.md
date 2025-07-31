@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#목표
 
-## Available Scripts
+- 리액트에서의 파일 구조와 그에 따른 흐름의 전반적인 이해
 
-In the project directory, you can run:
+#계획
 
-### `npm start`
+1. 지피티가 만들어준 코드와 파일구조를 이해하고 새롭게 다시 만든다
+2. 물론 지피티를 게속 사용하지만 능동적이게 진행한다.
+3. 리액트의 기본적인 구조와 흐름을 이해한 후 테일윈드로 부가적인 디자인 요소들 추가할것이다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#고난과 역경
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 리액트로 이미 진행했던 내용을 다시 새롭게 만들어보는건 복습의 기회가 되고 좋았다
+- 테일윈드를 설치하는 순간부터 난관을 겪었다.
+- 3시간 가량 시도해보고 지피티와의 대화는 더 이상 무의미하다고 생각하여 유트브와 구글을 이용해서 해결방법에 대해서 공부했다.
+- 테일윈드를 설치하고 지피티의 도움으로 css를 적용하는것까지 성공했다.
+    - 원래 이것도 마지막에 적용이 안되고 기본 html파일만 보여서 해결하느라 힘들었다
+    - **“`create-react-app`에서는 `module.exports`를 써야 Tailwind가 정상 작동**합니다.” 라는걸 항상 마지막에 말해줘서 잘못된 부분을 찾는다고 몇시간 동안 엉뚱한 부분만 질문하고있었다..
 
-### `npm test`
+#앞으로의전망
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 글을 쓰는거 뿐만 아니라 수정하고 삭제하는 기능을 추가할것이다.
+2. 테일윈드로 디자인요소들을 변경해서 이미 상세페이지를 들어간 글은 전체 목록으로 보여질때 다른 색상으로 구분을 주고싶다.
+3. 댓글기능을 구현하고싶으나 글 작성자가 누구인지 (익명 혹은 실명으로) 알아볼수있게 기능을 추가해야할거같다.
